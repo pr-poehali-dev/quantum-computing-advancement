@@ -21,7 +21,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
                 Обо мне
                 <br />
-                <span className="text-foreground/40">как педагоге</span>
+                <span className="text-foreground/40">как будущем педагоге</span>
               </h2>
             </div>
 
@@ -32,10 +32,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Педагог с многолетним опытом работы. Создаю условия для развития творческого мышления, самостоятельности и любознательности у каждого ученика.
+                Меня зовут Орлова Анастасия Сергеевна, мне 20 лет. Учусь на 2 курсе педагогического колледжа при ЧГУ по специальности «Учитель начальных классов».
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Использую современные методики и разрабатываю авторские материалы, чтобы обучение было увлекательным и результативным.
+                Хочу работать в школе, потому что начальное образование — это фундамент, который определяет дальнейший путь каждого ребёнка. Уже работала вожатой с детьми младшего возраста в лагере и убедилась: это моё!
               </p>
             </div>
           </div>
@@ -43,9 +43,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "10+", label: "Лет опыта", sublabel: "В системе образования", direction: "right" },
-              { value: "200+", label: "Учеников", sublabel: "Прошли обучение", direction: "left" },
-              { value: "15+", label: "Разработок", sublabel: "Авторские материалы", direction: "right" },
+              { value: "2", label: "Курс", sublabel: "Педагогический колледж при ЧГУ", direction: "right" },
+              { value: "НК", label: "Специализация", sublabel: "Учитель начальных классов", direction: "left" },
+              { value: "1", label: "Смена в лагере", sublabel: "Работа с детьми младшего возраста", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
