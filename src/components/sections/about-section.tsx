@@ -65,7 +65,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
             >
               <div className="relative overflow-hidden rounded-2xl">
                 <img
-                  src="https://i.ibb.co/0yjz8X2y/Pb-Ae-TPq-DNz-TI0-Xq-Ac-Q-YJ8-Srf-I1a-Uwio-Pbuft-T-h-J1-TEM2-QZv-MP2-UBIRs-C38f7llj-qi-Uv-Px-F7-MYYYF-wfb.jpg"
+                  src="https://i.ibb.co/DfXfgH7m/Pb-Ae-TPq-DNz-TI0-Xq-Ac-Q-YJ8-Srf-I1a-Uwio-Pbuft-T-h-J1-TEM2-QZv-MP2-UBIRs-C38f7llj-qi-Uv-Px-F7-MYYYF-wfb.jpg"
                   alt="Орлова Анастасия Сергеевна"
                   className="h-64 w-full object-cover object-top md:h-80"
                 />
