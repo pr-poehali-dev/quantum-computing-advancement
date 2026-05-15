@@ -45,7 +45,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
             {[
               { value: "2", label: "Курс", sublabel: "Педагогический колледж при ЧГУ", direction: "right" },
               { value: "НК", label: "Специализация", sublabel: "Учитель начальных классов", direction: "left" },
-              { value: "1", label: "Смена в лагере", sublabel: "Работа с детьми младшего возраста", direction: "right" },
+              { value: "4", label: "Смены в лагере", sublabel: "По 14 дней, работа с детьми младшего возраста", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
