@@ -78,7 +78,7 @@ export function ContactSection() {
           }`}
           style={{ transitionDelay: "750ms" }}
         >
-          <MagneticButton size="lg" variant="primary" onClick={() => window.open("#", "_blank")}>
+          <MagneticButton size="lg" variant="primary" onClick={() => window.open("https://disk.yandex.ru/d/kMehGDHUfC9HVQ", "_blank")}>
             Скачать буклет для учащихся
           </MagneticButton>
         </div>

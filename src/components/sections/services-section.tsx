@@ -54,7 +54,7 @@ export function ServicesSection() {
           }`}
           style={{ transitionDelay: "700ms" }}
         >
-          <MagneticButton size="lg" variant="primary" onClick={() => window.open("#", "_blank")}>
+          <MagneticButton size="lg" variant="primary" onClick={() => window.open("https://disk.yandex.ru/d/0m_6LbW8bo3Y-A", "_blank")}>
             Скачать буклет для родителей
           </MagneticButton>
         </div>
