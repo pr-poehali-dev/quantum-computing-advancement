@@ -4,30 +4,16 @@ import Icon from "@/components/ui/icon"
 const exercises = [
   {
     number: "01",
-    title: "Упражнение 1",
-    category: "Интерактивное задание",
-    link: "#",
+    title: "Интерактивные задания",
+    category: "LearningApps — открыть и выполнить онлайн",
+    link: "https://learningapps.org/watch?v=pntdcjxvn26",
     direction: "left",
   },
   {
     number: "02",
-    title: "Упражнение 2",
-    category: "Практическая работа",
-    link: "#",
-    direction: "right",
-  },
-  {
-    number: "03",
-    title: "Упражнение 3",
-    category: "Творческое задание",
-    link: "#",
-    direction: "left",
-  },
-  {
-    number: "04",
     title: "Технологическая карта",
-    category: "Внеурочное мероприятие",
-    link: "#",
+    category: "Внеурочное мероприятие — Яндекс Диск",
+    link: "https://disk.yandex.ru/i/s_y-DTa3JVXf2A",
     direction: "right",
   },
 ]
