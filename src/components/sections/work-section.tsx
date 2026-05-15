@@ -11,10 +11,17 @@ const exercises = [
   },
   {
     number: "02",
+    title: "Тесты по предметам",
+    category: "LearningApps — тесты для детей на разные предметы",
+    link: "https://learningapps.org/watch?v=pcof1er5n26",
+    direction: "right",
+  },
+  {
+    number: "03",
     title: "Технологическая карта",
     category: "Внеурочное мероприятие — Яндекс Диск",
     link: "https://disk.yandex.ru/i/s_y-DTa3JVXf2A",
-    direction: "right",
+    direction: "left",
   },
 ]
 
