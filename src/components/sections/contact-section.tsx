@@ -21,7 +21,7 @@ export function ContactSection() {
               <h2 className="mb-2 font-sans text-4xl font-light leading-[1.05] tracking-tight text-foreground md:mb-3 md:text-7xl lg:text-8xl">
                 Учащимся
               </h2>
-              <p className="font-mono text-xs text-foreground/60 md:text-base">/ Буклет с полезной информацией</p>
+              <p className="font-mono text-xs text-foreground/60 md:text-base">/ Здоровый образ жизни — просто и понятно</p>
             </div>
 
             <div
@@ -31,10 +31,10 @@ export function ContactSection() {
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Этот буклет создан специально для вас — учеников. Здесь вы найдёте полезные советы, упражнения и рекомендации по теме.
+                Этот буклет создан специально для тебя! Узнай, как правильно питаться, зачем нужен режим дня и почему физкультура делает тебя сильнее и здоровее.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Используйте его как шпаргалку или руководство в своей учёбе и повседневной жизни.
+                Здоровый образ жизни — это не скучно. Используй советы из буклета каждый день!
               </p>
             </div>
           </div>
@@ -42,9 +42,9 @@ export function ContactSection() {
           {/* Right side - Key topics */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-10">
             {[
-              { label: "Что важно знать", desc: "Основные факты и понятия по теме", direction: "right" },
-              { label: "Практические советы", desc: "Как применять знания в жизни", direction: "left" },
-              { label: "Дополнительные материалы", desc: "Ресурсы для самостоятельного изучения", direction: "right" },
+              { label: "Правильное питание", desc: "Что есть, чтобы расти здоровым и сильным", direction: "right" },
+              { label: "Режим дня", desc: "Как успевать всё и не уставать", direction: "left" },
+              { label: "Физкультура и движение", desc: "Простые упражнения и подвижные игры для здоровья", direction: "right" },
             ].map((item, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
